@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importação CSS -->
+    <link rel="stylesheet" href="./styles/diretrizes.css" />
+
+    <!-- Icone da aba no navegador -->
+    <link rel="icon" type="image/x-icon" href="./imagens/favicon.png" />
+
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+
+    <!-- Flickity -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body class="">
+    <div class="background"></div>
+
+    <header
+      class="d-flex align-items-center justify-content-center gap-5 w-100 bg-light"
+    >
+      <a href="">Home</a>
+      <a href="">Diretrizes de acessibilidade</a>
+      <a href="">Assine agora a newsletter</a>
+    </header>
+
+    <section class="container d-flex align-items-center justify-content-center">
+      <article class="bg-light p-5 d-flex flex-column justify-content-center">
+        <h4 class="text-center">Diretrizes de Acessibilidade de Conteúdo WEB (WCAG) 2.1</h4>
+
+        <!-- CARROSSEL -->
+
+        <!-- Flickity HTML init -->
+        <div
+          class="gallery js-flickity my-3 py-4"
+          data-flickity-options='{ "wrapAround": true }'
+        >
+          <div class="gallery-cell carrosel carrosel-bg-1">
+            <div>
+              <h4>Perceptível</h4>
+              <p>
+                As informações e a interface devem ser exibidas ao usuário de
+                modo claro e perceptível. Dentro do extenso guia, podemos
+                encontrar soluções sobre a utilização de cada componente, como
+                caracterísitcas sensoriais, textos, imagens, e as mais diversas
+                opções.
+              </p>
+            </div>
+          </div>
+          <div class="gallery-cell carrosel carrosel-bg-2">
+            <div>
+              <h4>Perceptível</h4>
+              <p>
+                As informações e a interface devem ser exibidas ao usuário de
+                modo claro e perceptível. Dentro do extenso guia, podemos
+                encontrar soluções sobre a utilização de cada componente, como
+                caracterísitcas sensoriais, textos, imagens, e as mais diversas
+                opções.
+              </p>
+            </div>
+          </div>
+          <div class="gallery-cell carrosel carrosel-bg-3">
+            <div>
+              <h4>Perceptível</h4>
+              <p>
+                As informações e a interface devem ser exibidas ao usuário de
+                modo claro e perceptível. Dentro do extenso guia, podemos
+                encontrar soluções sobre a utilização de cada componente, como
+                caracterísitcas sensoriais, textos, imagens, e as mais diversas
+                opções.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARROSSEL -->
+      </article>
+    </section>
+  </body>
+
+  <!-- Importação JavaScript -->
+
+  <!-- JavaScript Bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
+  <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+  <!-- Acessibilidade libras -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script src="./scripts/acessibilidade.js"></script>
+  <!-- Trocar de lingua -->
+  <script src="./scripts.js"></script>
+
+  <!-- Flickity -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>

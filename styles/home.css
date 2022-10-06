@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .background {
+    background-image: url("../../imagens/bg_yellow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    z-index: -1;
+  }
+  
+  header {
+    height: 50px;
+  }
+  
+  header > a {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 600;
+  }
+  
+  nav {
+    height: 70px;
+  }
+  
+  nav > h2, nav > h4 {
+    color: aliceblue;
+  }
+  
+  main > section:nth-child(1) > a > img {
+    transition: transform .2s;
+    box-shadow: 5px 5px 10px #000;
+  }
+  
+  main > section:nth-child(1) > a > img:hover {
+    transform: scale(1.05);
+  }
+  
+  main > section:nth-child(1) > a > img {
+    transition: transform .2s;
+  }
+  
+  main > section:nth-child(2) > div:nth-child(1) {
+    border-radius: 20px;
+    background-color: #f9bb0096;
+  }
+  
+  main > section:nth-child(2) > div:nth-child(2) {
+    border-radius: 20px;
+    background-color: #f9bb0096;
+  }
+  
+  .container {
+    height: calc(100vh - 120px);
+  }
+  
+  button {
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 50px !important;
+    background-color: #F9B900;
+  }
+  button:hover {
+    font-weight: 600;
+    padding: 10px 40px;
+    border-radius: 50px !important;
+    background-color: #f5bc10;
+  }

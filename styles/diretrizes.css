@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("../../imagens/bg_red.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  height: 50px;
+}
+
+header > a {
+  text-decoration: none;
+  color: #161616;
+  font-weight: 600;
+}
+
+.container {
+  height: calc(100vh - 50px);
+}
+
+section > article {
+  border-radius: 20px;
+  height: 80%;
+  width: 100%;
+}
+
+.gallery{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.carrosel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.carrosel > div {
+ width: 85%;
+}
+
+.carrosel-bg-1 {
+    
+    width: 100%;
+    /* background-color: aqua; */
+}
+.carrosel-bg-2 {
+    
+    width: 100%;
+    /* background-color: red; */
+}
+.carrosel-bg-3 {
+    
+    width: 100%;
+    /* background-color: blue; */
+}
+/* CARROSSEL */
