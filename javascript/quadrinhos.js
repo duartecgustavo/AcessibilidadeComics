@@ -17,18 +17,14 @@ const arraySlides = [
   "./imagens/slides/Slide9.jpg",
   "./imagens/slides/Slide10.jpg",
   "./imagens/slides/Slide11.jpg",
-  "./imagens/slides/Slide12.jpg",
-  "./imagens/slides/Slide13.jpg",
-  "./imagens/slides/Slide14.jpg",
-  "./imagens/slides/Slide15.jpg",
-  "./imagens/slides/Slide16.jpg",
-  "./imagens/slides/Slide17.jpg",
-  "./imagens/slides/Slide18.jpg",
-  "./imagens/slides/Slide19.jpg",
 ];
 function setupSlides() {
   let esquerda = document.getElementById("esquerda");
   let direita = document.getElementById("direita");
+
+  if (indice === 0) {
+    esquerda.style.display = "none";
+  }
 
   direita.addEventListener("click", () => {
     changeSlide(true);
@@ -43,6 +39,16 @@ function changeSlide(change) {
     indice++;
   } else {
     indice--;
+  }
+  if (indice == 0) {
+    esquerda.style.display = "none";
+  } else {
+    esquerda.style.display = "flex";
+  }
+  if (indice == arraySlides.length-1) {
+    direita.style.display = "none";
+  } else {
+    direita.style.display = "flex";
   }
 
   slide.src = arraySlides[indice];

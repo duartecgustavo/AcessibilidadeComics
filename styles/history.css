@@ -28,14 +28,21 @@ main > section {
   height: 100%;
   width: 35vw;
   cursor: pointer;
+  border: 3px solid red;
 }
 
-.esquerda {
+.esquerda{
+  top: 50%;
+  left: 27%;
+  position: absolute;
   cursor: pointer;
   transform: scale(1.05);
 }
 
 .direita {
+  top: 50%;
+  left: 69%;
+  position: absolute;
   cursor: pointer;
   transform: scale(1.05);
 }
