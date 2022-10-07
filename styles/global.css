@@ -20,7 +20,7 @@ header > a {
 /* INICIO LIBRAS */
 .enabled {
   margin-right: 24px;
-  margin-top: -38 vh !important;
+  margin-top: -38vh !important;
 }
 .access-button {
   box-shadow: 0px 0px 5px rgb(0, 0, 0);
@@ -28,3 +28,35 @@ header > a {
   border: 0px;
 }
 /* FIM LIBRAS */
+
+/* Trocar de lingua */
+
+.changeLangOpenDyslexic {
+  font-family: "OpenDyslexic", "Poppins", sans-serif !important;
+}
+.changeLangPoppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.buttonChangeLang {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  border-radius: 50%;
+  border-style: none !important;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  background-color: #000;
+  right: 0;
+  top: 31%;
+  margin-right: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.buttonChangeLang > img {
+  width: 80%;
+}
+
+/* Trocar de lingua */
