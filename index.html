@@ -28,7 +28,7 @@
 
     <title>WebForUs</title>
   </head>
-  <body class="">
+  <body class="changeLangOpenDyslexic" id="testeId">
     <!-- Acessibilidade libras -->
     <div vw class="enabled">
       <div vw-access-button class="active"></div>
@@ -42,6 +42,7 @@
     <button class="buttonChangeLang" onClick="changeLanguage()">
       <img src="./imagens/trocar_lingua.png" alt="" />
     </button>
+    
     <!-- Trocar de lingua -->
 
     <div class="background"></div>
@@ -104,6 +105,25 @@
   </body>
 
   <!-- Importação JavaScript -->
+  
+  <script>
+    function changeLanguage() {
+        var elemento = document.getElementById('testeId');
+        var classes = elemento.className.split(' ');
+        var getIndexChangeLangOpenDyslexic = classes.indexOf('changeLangOpenDyslexic');
+        var getIndexChangeLangPoppins = classes.indexOf('changeLangPoppins');
+      console.log("gooi")
+        if (classes[0] === 'changeLangOpenDyslexic') {
+            classes.push('changeLangPoppins');
+            classes.splice(getIndexChangeLangOpenDyslexic, 1)
+            elemento.className = classes.join();
+        } else {
+            classes.push('changeLangOpenDyslexic');
+            classes.splice(getIndexChangeLangPoppins, 1)
+            elemento.className = classes.join();
+        }
+    }
+</script>
 
   <!-- Acessibilidade libras -->
   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
@@ -115,4 +135,7 @@
     integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
     crossorigin="anonymous"
   ></script>
+
+
+
 </html>

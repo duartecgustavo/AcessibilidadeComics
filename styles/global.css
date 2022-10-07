@@ -1,7 +1,7 @@
 @font-face { font-family: Delicious; src: url('../font/open_dyslexic/OpenDyslexic-Regular.otf'); } 
-
-body {
-  font-family: "Delicious", sans-serif !important;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+* {
+  /* font-family: "Delicious", "Poppins", sans-serif !important; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,7 +32,7 @@ header > a {
 /* Trocar de lingua */
 
 .changeLangOpenDyslexic {
-  font-family: "OpenDyslexic", "Poppins", sans-serif !important;
+  font-family: "Delicious", "Poppins", sans-serif !important;
 }
 .changeLangPoppins {
   font-family: "Poppins", sans-serif !important;
