@@ -1,0 +1,30 @@
+@font-face { font-family: Delicious; src: url('../font/open_dyslexic/OpenDyslexic-Regular.otf'); } 
+
+body {
+  font-family: "Delicious", sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+}
+
+header > a {
+  text-decoration: none;
+  color: #161616;
+  font-weight: 600;
+}
+
+/* INICIO LIBRAS */
+.enabled {
+  margin-right: 5px;
+  margin-top: -43vh !important;
+}
+.access-button {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  border-radius: 50px !important;
+  border: 0px;
+}
+/* FIM LIBRAS */

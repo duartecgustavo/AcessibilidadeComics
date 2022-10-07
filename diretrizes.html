@@ -7,6 +7,7 @@
 
     <!-- Importação CSS -->
     <link rel="stylesheet" href="./styles/diretrizes.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
 
     <!-- Icone da aba no navegador -->
     <link rel="icon" type="image/x-icon" href="./imagens/favicon.png" />
@@ -31,7 +32,7 @@
       href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
 
-    <title>Document</title>
+    <title>WebForUs</title>
   </head>
   <body class="">
     <div class="background"></div>
@@ -39,14 +40,16 @@
     <header
       class="d-flex align-items-center justify-content-center gap-5 w-100 bg-light"
     >
-      <a href="">Home</a>
-      <a href="">Diretrizes de acessibilidade</a>
-      <a href="">Assine agora a newsletter</a>
+      <a href="./index.html">Home</a>
+      <a href="./diretrizes.html">Diretrizes de acessibilidade</a>
+      <a href="./newsLetter.html">Assine agora a newsletter</a>
     </header>
 
     <section class="container d-flex align-items-center justify-content-center">
       <article class="bg-light p-5 d-flex flex-column justify-content-center">
-        <h4 class="text-center">Diretrizes de Acessibilidade de Conteúdo WEB (WCAG) 2.1</h4>
+        <h4 class="text-center">
+          Diretrizes de Acessibilidade de Conteúdo WEB (WCAG) 2.1
+        </h4>
 
         <!-- CARROSSEL -->
 
@@ -69,25 +72,38 @@
           </div>
           <div class="gallery-cell carrosel carrosel-bg-2">
             <div>
-              <h4>Perceptível</h4>
+              <h4>Operavel</h4>
               <p>
-                As informações e a interface devem ser exibidas ao usuário de
-                modo claro e perceptível. Dentro do extenso guia, podemos
-                encontrar soluções sobre a utilização de cada componente, como
-                caracterísitcas sensoriais, textos, imagens, e as mais diversas
-                opções.
+                Toda a funcionalidade do conteúdo é operável através de uma
+                interface de teclado sem requerer temporizações específicas para
+                digitação individual, exceto quando a função subjacente requer
+                entrada de dados que dependa da cadeia de movimento do usuário e
+                não apenas dos pontos finais.
               </p>
             </div>
           </div>
           <div class="gallery-cell carrosel carrosel-bg-3">
             <div>
-              <h4>Perceptível</h4>
+              <h4>Compreensivel</h4>
               <p>
-                As informações e a interface devem ser exibidas ao usuário de
-                modo claro e perceptível. Dentro do extenso guia, podemos
-                encontrar soluções sobre a utilização de cada componente, como
-                caracterísitcas sensoriais, textos, imagens, e as mais diversas
-                opções.
+                O idioma de cada passagem ou frase no conteúdo pode ser
+                determinado por meio de código de programação exceto para nomes
+                próprios, termos técnicos, palavras de idioma indeterminado e
+                palavras ou frases que se tornaram parte do vernáculo do texto
+                que as envolve.
+              </p>
+            </div>
+          </div>
+          <div class="gallery-cell carrosel carrosel-bg-4">
+            <div>
+              <h4>Robusto</h4>
+              <p>
+                No conteúdo implementado utilizando linguagens de
+                marcação, os elementos dispõem de tags completas de início e de
+                fim, os elementos são aninhados de acordo com as respectivas
+                especificações, os elementos não contêm atributos duplicados, e
+                quaisquer IDs são exclusivos, exceto quando as especificações
+                permitem estas características.
               </p>
             </div>
           </div>

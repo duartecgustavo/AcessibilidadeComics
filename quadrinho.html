@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importação CSS -->
+    <link rel="stylesheet" href="./styles/history.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+
+
+    <!-- Icone da aba no navegador -->
+    <link rel="icon" type="image/x-icon" href="./imagens/favicon.png" />
+
+    <!-- Bootstrap CSS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Icon  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+
+    <title>WebForUs</title>
+  </head>
+  <body class="">
+    <div class="background"></div>
+
+    <header
+      class="d-flex align-items-center justify-content-center gap-5 w-100 bg-light"
+    >
+      <a href="./index.html">Home</a>
+      <a href="./diretrizes.html">Diretrizes de acessibilidade</a>
+    </header>
+
+    <div class="container_page row">
+      <img id="slide" src="./imagens/slides/Slide1.jpg" class="img-fluid" alt="slide onde esta passando as imagens dos quadrinhos" />
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center">
+      <main class="row">
+        <section class="d-flex align-items-center justify-content-center">
+          <a id="esquerda"><img class="esquerda" src="./imagens/esquerda.png" alt="seta apontando para direita para passar para o proximo quadrinho" /></a>
+
+          <div class="book mx-3"></div>
+
+          <a id="direita"><img class="direita" src="./imagens/direita.png" alt="seta apontando para esquerda para retornar para o quadrinho anterior" /></a>
+        </section>
+      </main>
+    </div>
+  </body>
+
+  <!-- Importação JavaScript -->
+
+  <!-- JavaScript Bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Trocar de lingua -->
+  <script src="./quadrinhos.js"></script>
+</html>
